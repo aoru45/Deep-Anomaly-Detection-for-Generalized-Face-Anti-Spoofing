@@ -18,25 +18,28 @@ First, make a dir containing positive and negative folder and place the correspo
 Second, configure data path in dataset.py .
 
 Then run training
-```
+```cmd
 python train.py
-```[cmd]
-
+```
 For visualization,
 
 First, generate the txt file for t-sne visuation.
-```
+
+```cmd
 python generate_txt_for_tsne.py
-```[python]
+```
+
+
 
 Then, visuallize them
-```
+
+```cmd
 python t_sne.py
-```[python]
+```
 
 The visual effect is as shown in the figure:
-![vis](vis.png)
 
+![vis](vis.png)
 ## Contributing
 
 PRs accepted.
